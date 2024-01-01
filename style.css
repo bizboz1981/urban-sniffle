@@ -1,5 +1,5 @@
 body {
-    background-image: background.jpg;
+    background-image: url('background.jpg');
     background-color: #f3f3f3;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -7,14 +7,17 @@ body {
     margin: 0;
     padding: 0;
 }
+
 h1 {
     color: coral;
     font-weight: bold;
 }
+
 p {
     color: teal;
 }
 
 #tsbb {
-    font-style: oblique 18deg;
+    font-size: 18px; /* Set the font size to 18px */
+    font-style: oblique; /* Set the font style to oblique */
 }
